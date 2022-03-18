@@ -1,20 +1,40 @@
+//Cree un algoritmo que permita dterminar
+//La calificacion de un alumno
+//si la nota se encuentra entre 100 a 90 = A
+//si la nota se encuentra entre 80 a 89 = B
+//si la nota se encuentra entre 70 a 79 = C
+//si la nota se encuentra entre 60 a 69 = D
+//si la nota es inferior a 60 = F
+ 
+let nota = -6;
+let notaLetra = '';
 
-//Crear un algoritmo, que basado en la nota
-// imprima si el alumno aprueba la materia
-// aprueba 60
-// si el alumno tiene nota menor a 50 imprimir
-//un mensaje que diga: por favor estudie mas
+// if(nota <= 100 && nota >= 90){ 
+//     (notaLetra = 'A');
+// } else if(nota >= 80 && nota <= 89){
+//     (notaLetra = 'B');
+// } else if(nota >= 70 && nota <= 79){
+//     notaLetra = 'C';
+// } else if(nota >= 60 && nota <= 69){
+//     notaLetra = 'D';
+// } else{
+//     notaLetra = 'F';
+// }
+// console.log(nota + ' es igual a ' + notaLetra);
 
-let notaObtenida = 50;
 
-if ( notaObtenida >= 60 ) {
-    console.log('EL alumno aprueba la materia');
+if(nota >= 90){
+    notaLetra = 'A';
+} else if(nota >= 80){
+    notaLetra = 'B';
+} else if( nota >= 70){
+    notaLetra = 'C';
 } else {
-
-    if ( notaObtenida < 50) {
-        console.log('por favor estudie un poco más')
-    }
-    console.log('El alumno no aprueba la materia');
-
+    nota >= 60;
+    notaLetra = 'D';
 }
-console.log('gracias');
+    
+   
+
+console.log(nota + ' es igual a ' + notaLetra);
+
