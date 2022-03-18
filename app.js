@@ -15,4 +15,6 @@ if ( notaObtenida >= 60 ) {
         console.log('por favor estudie un poco más')
     }
     console.log('El alumno no aprueba la materia');
+
 }
+console.log('gracias');
