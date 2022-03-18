@@ -8,11 +8,11 @@
 let nota = 50;
 
 if ( nota >= 60 ) {
-    console.log('EL alumno aprueba la clase');
+    console.log('EL alumno aprueba la materia');
 } else {
 
     if ( nota < 50) {
-        console.log('por favor estudie más')
+        console.log('por favor estudie un poco más')
     }
-    console.log('El alumno no aprueba la clase');
+    console.log('El alumno no aprueba la materia');
 }
