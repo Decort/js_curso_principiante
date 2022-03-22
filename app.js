@@ -27,7 +27,7 @@
 //         console.log('El día ingresado no es permitido');
 // } 
 
-let dia = 5; // Lunes = 0, Martes = 1
+let dia = 2; // Lunes = 0, Martes = 1
              // Domingo = 0
 
 if( dia === 0){
