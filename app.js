@@ -1,18 +1,43 @@
 
-//Crear un algoritmo, que basado en la nota
-// imprima si el alumno aprueba la materia
-// aprueba 60
-// si el alumno tiene nota menor a 50 imprimir
-//un mensaje que diga: por favor estudie mas
+// for ( let i = 1; i <= 10; i++){
 
-let nota = 50;
+//     let resultado = 2 * i;
 
-if ( nota >= 60 ) {
-    console.log('EL alumno aprueba la clase');
-} else {
+//     console.log('2 x ' + i + '= ' + resultado);
+// }
+// for ( let i = 1; i <= 10; i++){
+// let resultado = 2 * i;
 
-    if ( nota < 50) {
-        console.log('por favor estudie más')
-    }
-    console.log('El alumno no aprueba la clase');
+// console.log('2 x ' + i + '= ' + resultado );
+
+// }
+// for (let i = 1; i <= 10; i++){
+
+//     let resultado = 2 * i;
+
+//     console.log('2 x '+ i + ' = '+ resultado);
+// }
+
+let limite =20;
+
+for (let i = 1; i <= limite; i++){
+
+    let base = 10;
+   
+    let resultado = base * i;
+
+    console.log(base + ' x ' + i + ' = ' + resultado);
 }
+
+// let gasolina = 100;
+
+// while( gasolina > 0){
+
+    
+//     console.log('Gasolina restante ' + gasolina);
+
+//     gasolina --;
+
+
+// }
+//     console.log('Ya no hay mas gasolna');
